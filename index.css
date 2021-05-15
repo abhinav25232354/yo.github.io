@@ -1,0 +1,135 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#hero{
+    background-color: orange;
+    /* padding: 30px; */
+}
+#firstbutton{
+    background-color: black;
+}
+.container .box{
+    height: 100px;
+    /* border: 2px solid black; */
+    width: auto;
+}
+#section{
+    /* background: linear-gradient(57deg, #00c6a7, #1e4d92); */
+    background: linear-gradient(180deg,black, rgb(25, 78, 252), white);
+ /* 1   clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 0% 100%); */
+}
+#heading{
+    padding-top: 150px;
+    padding-bottom: 30px;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+#paragraph{
+    padding-bottom: 200px;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+}
+#boxes .container{
+    display: inline;
+    /* background-color: black; */
+}
+#boxes .container .box{
+    margin-top: 20%;
+    margin: 0px;
+    height: 300px;
+    background-color: white;
+    color: black;
+    box-shadow: 10px;
+
+    margin-left: 8%;
+    margin-right: 8%;
+    /* animation-name: ctnanimation;
+    animation-duration: 4s;
+    transition: 10s;
+    animation-iteration-count: infinite; */
+}
+h2{
+    margin-left: 20px;
+    font-size: x-large;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+#boxparagraph{
+    margin-left: 20px;
+}
+#learnmorelink{
+    margin-left: 20px;
+    text-decoration: none;
+    color: red;
+}
+#header{
+    background: black;
+}
+hr{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#ctnbutton{
+    background: linear-gradient(180deg,black, rgb(25, 78, 252));
+}
+#homelinks{
+    color: white;
+}
+#boxes{
+    margin-top: 50px;
+}
+#span{
+    color: white;
+}
+#heroimg{
+    width: 300px;
+}
+#hero1btn{
+    background-color: rgb(25, 78, 252);
+}
+@keyframes ctnanimation{
+    0%{
+        margin-left: initial;
+        margin-right: initial;
+    }
+    50%{
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+    100%{
+        margin-left: initial;
+        margin-right: initial;
+    }
+}
+#ctn{
+    display: block;
+    animation-name: ctnanimation;
+    animation-duration: 3s;
+    transition: 10s;
+    animation-iteration-count: infinite;
+}
+#heroh1{
+    color: white;
+}
+#herop{
+    color: white;
+}
+#herobtn{
+    background: linear-gradient(180deg,black, rgb(25, 78, 252));
+    color: white;
+}
+button{
+    animation-name: btnrotate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition: 2s;
+}
+@keyframes btnrotate{
+    from{
+        position: initial;
+    }
+    to{
+        transform: translateX(180deg);
+}
